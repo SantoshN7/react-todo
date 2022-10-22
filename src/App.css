@@ -1,0 +1,59 @@
+#root {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+div .Todo-container {
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-height: 60%;
+  width: 30%;
+  border: solid 2px black;
+}
+
+div .Todo-search-container {
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  border: solid 2px black;
+}
+
+.Todo-search-container button {
+  margin-left: 1em;
+}
+
+.Todo-list-container {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: solid 2px black;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+ul {
+  list-style-type: none;
+}
