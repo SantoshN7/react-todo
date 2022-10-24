@@ -10,9 +10,9 @@ export default function TodoItem({ item, onItemStatusChanged }: {item: TodoItemT
   }
 
   const strikeThroughStyle = {
-    'textDecoration': 'line-through'
+    'textDecoration': 'line-through solid rgb(255, 255, 255)'
   }
-  console.log('component mount', item.title)
+
   return (
     <li>
       <input type="checkbox" defaultChecked={item.status === 'Complete'} onChange={handleTodoItemStatusChange}/>

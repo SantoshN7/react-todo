@@ -42,6 +42,17 @@ div .Todo-search-container {
   margin-left: 1em;
 }
 
+.Todo-input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Todo-input-field span {
+  color: red;
+}
+
+
 .Todo-list-container {
   padding: 4px;
   display: flex;
